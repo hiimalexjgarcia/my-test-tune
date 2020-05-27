@@ -11,6 +11,9 @@ build:
          -a:01+sc+03 -i .tmp/tyvuyv.it.01+sc+03.wav \
          -a:03 -i .tmp/tyvuyv.it.03.wav \
          -a:04 -i .tmp/tyvuyv.it.04.wav \
+         -a:05 -i .tmp/tyvuyv.it.05.wav \
+         -a:06 -i .tmp/tyvuyv.it.06.wav \
+         -a:08 -i .tmp/tyvuyv.it.08.wav \
          -a:all -o build/tyvuyv.it.wav
 	normalize-audio build/tyvuyv.it.wav
 	lame --preset insane build/tyvuyv.it.wav build/tyvuyv.it.mp3
