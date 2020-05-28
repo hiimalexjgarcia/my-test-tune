@@ -6,7 +6,7 @@ build:
          -a:sc -i .tmp/tyvuyv.it.03.wav -chmix:1 -chmute:2 \
          -a:main -i .tmp/tyvuyv.it.01.wav -chmove:2,3 -chmove:1,2 \
          -a:sc,main -f:,3, -o loop,mixdown \
-         -a:mix -i loop,mixdown -el:sc3,5,40,-30,5,,,1 -f:s16,2,48000 -o .tmp/tyvuyv.it.01+sc+03.wav
+         -a:mix -i loop,mixdown -el:sc3,5,20,-15,10,3.25,3,1 -f:s16,2,48000 -o .tmp/tyvuyv.it.01+sc+03.wav
 	ecasound \
          -a:01+sc+03 -i .tmp/tyvuyv.it.01+sc+03.wav \
          -a:03 -i .tmp/tyvuyv.it.03.wav \
