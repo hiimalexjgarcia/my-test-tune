@@ -18,4 +18,12 @@ make
 xdg-open build/tyvuyv.it.mp3
 ```
 
-(Makefile presumes Schism Tracker and Ecasound are exporting WAV files at 48khz.)
+Makefile presumes Schism Tracker and Ecasound are exporting WAV files at 48khz. In Schism Tracker, I have this in the config:
+
+```
+[Diskwriter]
+rate=48000
+bits=16
+channels=2
+```
+
